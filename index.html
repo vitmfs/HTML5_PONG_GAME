@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+ <html>
+
+    <head>
+
+        <meta charset='utf-8'>
+        <title>Ping Pong</title>
+
+        <style>
+
+            #playground {
+
+                background: #e0ffe0 url(images/blank_800_800_image.jpg);
+                width:      400px;
+                height:     200px;
+                position:   relative;
+                overflow:   hidden;
+                /*
+                background: #e0ffe0;
+                width:      400px;
+                height:     200px;
+                position:   relative;
+                overflow:   hidden;
+                */
+            }
+
+            #ball {
+
+                background:     #fbb;
+                position:       absolute;
+                width:          20px;
+                height:         20px;
+                left:           150px;
+                top:            100px;
+                border-radius:  10px;
+            }
+
+            .paddle {
+
+                background: #bbf;
+                left:       50px;
+                top:        70px;
+                position:   absolute;
+                width:      30px;
+                height:     70px;
+            }
+
+            #paddleB {
+
+                left: 320px;
+            }
+        </style>
+
+
+        <script src='jquery/jquery-3.5.0.min.js' ></script>
+        <script src='scripts/html5game_webpong.js' ></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Ping Pong</h1>
+        </header>
+
+        <div id="game">
+
+            <div id="playground">
+
+                <div id="paddleA" class="paddle">
+
+                </div>
+
+                <div id="paddleB" class="paddle">
+
+                </div>
+
+                <div id="ball">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <footer>
+            Play Ping Pong against a friend! Have fun! That's an order!
+        </footer>
+
+        <script>
+
+            
+        </script>
+
+        
+
+    </body>
+
+ </html>                              
